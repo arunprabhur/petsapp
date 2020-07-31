@@ -4,7 +4,7 @@ threadsafe: true
 
 handlers:
 - url: /.*
-  script: app.app
+  script: main.app
 
 libraries:
 - name: flask
